@@ -1,0 +1,60 @@
+
+/* Responsivity */
+
+@media(max-width: 500px) {
+    main#home h1 {
+        margin-top: 10vh;
+    }
+    
+    
+    nav.menu .menu-branding,
+    nav.menu .menu-nav {
+        float: none;
+        width: 100%;
+        min-height: 0;
+    }
+
+    nav.menu .menu-branding.show,
+    nav.menu .menu-nav.show {
+        transform: translate3d(0, 0, 0);
+    }
+
+    nav.menu .menu-nav {
+        height: 75vh;
+        transform: translate3d(-100%, 0, 0);
+        font-size: 24px;
+    }
+
+    nav.menu .menu-branding {
+        height: 25vh;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    nav.menu .menu-branding.show .portrait {
+        background-image: url('../../img/jarlei_portrait_small.jpg');
+        width: 150px;
+        height: 150px;
+
+        background-position: -9px -25px;
+    }
+}
+
+@media(max-width: 768px) {
+    main {
+        align-items: center;
+        text-align: center;
+    }
+
+    main .lg-heading {
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1170px) {
+    
+}
+
+@media(min-width: 1171px) {
+    
+}
