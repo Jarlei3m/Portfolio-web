@@ -94,3 +94,13 @@ main#home {
 main#home h1 {
     margin-top: 20vh;
 }
+
+#main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary-color-dark);
+    height: 60px;
+
+    font-weight: 600;
+}
+

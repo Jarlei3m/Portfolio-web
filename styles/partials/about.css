@@ -66,11 +66,3 @@
     box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.1);
 }
 
-#main-footer {
-    text-align: center;
-    padding: 1rem;
-    background: var(--primary-color-dark);
-    height: 60px;
-
-    font-weight: 600;
-}
