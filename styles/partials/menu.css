@@ -116,7 +116,7 @@
     transition: all 0.5s ease-out;
 }
 
-.nav-item:nth-child(1) .nav-link {
+.nav-item .nav-link.current {
     color: var(--secondary-color);
 }
 

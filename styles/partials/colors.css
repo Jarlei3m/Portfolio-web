@@ -3,6 +3,8 @@
     --primary-color: #444444;
     --primary-color-dark: rgba(31, 31, 31, 0.7);
     --primary-color-light: rgba(73, 73, 73, 0.5);
+    --primary-color-lighter: rgba(97, 97, 97, 0.5);
     --bg-overlay:rgba(73, 73, 73, 0.8);
-    --secondary-color: #eece1e;
+    --secondary-color: #df6c1f;
+    --secondary-color-shadow: #ecb590;
 }

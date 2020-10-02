@@ -47,6 +47,16 @@
 
         background-position: -9px -25px;
     }
+
+    main .about-info {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'bioimage'
+        'bioinfo'
+        'job1'
+        'job2'
+        'job3';
+    }
 }
 
 @media(max-width: 768px) {
