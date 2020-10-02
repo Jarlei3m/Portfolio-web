@@ -1,0 +1,23 @@
+/* PAGE Contact Me */
+
+.boxes .box-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes .box-bottom {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxes .address {
+    margin-bottom: 30px;
+}
+
+.boxes .maps iframe {
+    border: 1px solid var(--secondary-color);
+    border-radius: 3px;
+
+    width: 600px; 
+    height: 400px;
+}
